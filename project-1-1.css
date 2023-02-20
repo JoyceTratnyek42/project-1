@@ -1,0 +1,658 @@
+body {
+    
+    background-color: #263755;
+}
+
+
+@font-face {
+    font-family: 'adobe caslon pro';
+    src: url('ACaslonPro-Regular.woff2') format('woff2'),
+        url('ACaslonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.first {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);   
+    
+}
+
+
+.first:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+
+.first:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+    
+}
+
+
+@media screen and (max-width: 820px) {
+  .first {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .first:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .first:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 620px) {
+  .first {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .first:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .first:hover {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .first {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .first:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .first:hover {
+    font-size: 28px;
+  }
+}
+
+
+.second {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);
+    
+}
+
+.second:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.second:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+        
+}
+
+@media screen and (max-width: 820px) {
+  .second {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .second:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .second:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .second {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .second:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .second:hover {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .second {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .second:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .second:hover {
+    font-size: 28px;
+  }
+}
+
+
+
+.third {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);
+    
+}
+
+.third:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.third:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;   
+}
+
+
+@media screen and (max-width: 820px) {
+  .third {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .third:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .third:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 620px) {
+  .third {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .third:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .third:hover {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .third {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .third:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .third:hover {
+    font-size: 28px;
+  }
+}
+
+
+.fourth {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);
+    
+}
+
+.fourth:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.fourth:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+    
+    
+}
+
+
+@media screen and (max-width: 820px) {
+  .fourth {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fourth:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .fourth:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 620px) {
+  .fourth {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fourth:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .fourth:hover {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fourth {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fourth:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .fourth:hover {
+    font-size: 28px;
+  }
+}
+
+
+.fifth {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);
+    
+}
+
+.fifth:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.fifth:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;   
+    
+}
+
+
+@media screen and (max-width: 820px) {
+  .fifth {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fifth:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .fifth:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 620px) {
+  .fifth {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fifth:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .fifth:hover {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fifth {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fifth:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .fifth:hover {
+    font-size: 28px;
+  }
+}
+
+
+
+.sixth {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter: blur(12px);
+    
+    
+}
+
+.sixth:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+    
+    
+}
+
+.sixth:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease; 
+    
+    
+}
+
+@media screen and (max-width: 820px) {
+  .sixth {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .sixth:active {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .sixth:hover {
+    font-size: 60px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 620px) {
+  .sixth {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sixth:active {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .sixth:hover {
+    font-size: 40px;
+  }
+}
+
+
+
+@media screen and (max-width: 410px) {
+  .sixth {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .sixth:active {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .sixth:hover {
+    font-size: 28px;
+  }
+}
+
+
+
+
+.button-1 {
+    
+background-color: black;
+color: #263755;
+border: none;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: "adobe caslon pro";
+font-weight:800;
+box-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+border-radius: 50%;
+position: absolute;
+right:5%;
+top:95%;
+
+
+
+}
+
+.button-1:hover {
+transform: scaleY(90%);
+transform: translateX(3%);
+transform: translateY(3%);
+}
+
+a {
+  color: #263755;
+  font-family: "adobe caslon pro", serif;
+  text-align: center;
+  text-decoration: none;
+   
+}

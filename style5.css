@@ -1,0 +1,234 @@
+body {
+    
+    background-color: #263755;
+}
+
+
+@font-face {
+    font-family: 'adobe caslon pro';
+    src: url('ACaslonPro-Regular.woff2') format('woff2'),
+        url('ACaslonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'adobe caslon pro';
+    src: url('ACaslonPro-BoldItalic.woff2') format('woff2'),
+        url('ACaslonPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.first {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:3%;
+    top:3%;
+    width:20vw;
+    /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    */
+    
+    
+    
+}
+
+
+.second {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:25%;
+    top:3%;
+    width:2vw;
+    /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    
+    */
+}
+
+
+
+.third {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:35%;
+    top:3%;
+    width:50vw;
+   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    */
+}
+
+
+.fourth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:69%;
+    top:3%;
+    width:50vw;
+  /*  text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    */
+}
+
+@media screen and (max-width: 1480px) {
+  .fourth {
+    width:30vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fourth {
+    top:9%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .fourth {
+    top:12%;
+  }
+}
+
+
+.fifth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:15%;
+    top:35%;
+    width:20vw;
+   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
+    
+}
+
+
+.sixth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:15%;
+    top:45%;
+    width:30vw;
+   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
+    
+}
+
+
+.seventh {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:10%;
+    top:57%;
+    width:20vw;
+    /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
+    
+}
+
+.eigth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:40%;
+    top:63%;
+    width:45vw;
+    /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
+    
+}
+
+
+.ninth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left:70%;
+    top:72%;
+    width:20vw;
+   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
+    
+}
+
+.tenth {
+    
+    font-size: 20px;
+    font-family: "adobe caslon pro", serif;position: fixed;
+    left:80%;
+    top:83%;
+    width:20vw;
+   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    */
+}
+
+.button-1 {
+    
+background-color: black;
+color: #263755;
+border: none;
+padding: 20px 32px;
+/*text-align: center;*/
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: "adobe caslon pro";
+font-weight:800;
+box-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+border-radius: 50%;
+position: absolute;
+right:5%;
+top:95%;
+
+
+}
+
+.button-1:hover {
+transform: scaleY(90%);
+transform: translateX(3%);
+transform: translateY(3%);
+}
+
+
+.button-2 {
+    
+background-color: black;
+color: #263755;
+border: none;
+padding: 20px 32px;
+/*text-align: center;*/
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: "adobe caslon pro";
+font-weight:800;
+box-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+border-radius: 50%;
+position: absolute;
+left:5%;
+top:95%;
+
+}
+
+.button-2:hover {
+transform: scaleY(90%);
+transform: translateX(3%);
+transform: translateY(3%);
+}
+
+
+a {
+  color: #263755;
+  font-family: "adobe caslon pro", serif;
+  text-align: center;
+  text-decoration: none;
+   
+}
