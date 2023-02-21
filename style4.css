@@ -102,6 +102,13 @@ body {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .third {
+    font-size: 21px;
+    
+  }
+}
+
 .fourth {
     
     font-size: 25px;
@@ -144,6 +151,21 @@ body {
   .fourth {
     top: 37%;
     left: 10%;
+    
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fourth {
+    font-size: 21px;
+    
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .fourth {
+    font-size: 17px;
     
   }
 }
@@ -213,9 +235,19 @@ body {
 
 @media screen and (max-width: 450px) {
   .fifth {
-    top: 63%;
+    top: 54%;
     left: 7%;
     width: 300px;
+    
+  }
+}
+
+
+@media screen and (max-width: 340px) {
+  .fifth {
+    top: 53%;
+    left: 7%;
+    font-size: 21px;
     
   }
 }

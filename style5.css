@@ -28,13 +28,26 @@ body {
     position: fixed;
     left:3%;
     top:3%;
-    width:20vw;
+    width:19vw;
     /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
-    */
-    
-    
+    */   
     
 }
+
+@media screen and (max-width: 560px) {
+  .first {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .first {
+    font-size: 14px;
+    
+  }
+}
+
 
 
 .second {
@@ -44,13 +57,25 @@ body {
     position: fixed;
     left:25%;
     top:3%;
-    width:2vw;
+    width:1.5vw;
     /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     
     */
 }
 
+@media screen and (max-width: 560px) {
+  .second {
+    font-size: 16px;
+    
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .second {
+    font-size: 14px;
+    
+  }
+}
 
 .third {
     
@@ -59,11 +84,24 @@ body {
     position: fixed;
     left:35%;
     top:3%;
-    width:50vw;
+    width:49vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     */
 }
 
+@media screen and (max-width: 560px) {
+  .third {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .third {
+    font-size: 14px;
+    
+  }
+}
 
 .fourth {
     
@@ -72,7 +110,7 @@ body {
     position: fixed;
     left:69%;
     top:3%;
-    width:50vw;
+    width:49vw;
   /*  text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     */
 }
@@ -89,9 +127,25 @@ body {
   }
 }
 
+@media screen and (max-width: 560px) {
+  .fourth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fourth {
+    font-size: 14px;
+    
+  }
+}
+
 @media screen and (max-width: 350px) {
   .fourth {
     top:12%;
+    font-size: 14px;
+      
   }
 }
 
@@ -103,11 +157,24 @@ body {
     position: fixed;
     left:15%;
     top:35%;
-    width:20vw;
+    width:19vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     
 }
 
+@media screen and (max-width: 560px) {
+  .fifth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fifth {
+    font-size: 14px;
+    
+  }
+}
 
 .sixth {
     
@@ -116,11 +183,24 @@ body {
     position: fixed;
     left:15%;
     top:45%;
-    width:30vw;
+    width:29vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     
 }
 
+@media screen and (max-width: 560px) {
+  .sixth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sixth {
+    font-size: 14px;
+    
+  }
+}
 
 .seventh {
     
@@ -129,9 +209,23 @@ body {
     position: fixed;
     left:10%;
     top:57%;
-    width:20vw;
+    width:19vw;
     /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     
+}
+
+@media screen and (max-width: 560px) {
+  .seventh {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .seventh {
+    font-size: 14px;
+    
+  }
 }
 
 .eigth {
@@ -141,11 +235,24 @@ body {
     position: fixed;
     left:40%;
     top:63%;
-    width:45vw;
+    width:44vw;
     /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     
 }
 
+@media screen and (max-width: 560px) {
+  .eigth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .eigth {
+    font-size: 14px;
+    
+  }
+}
 
 .ninth {
     
@@ -154,9 +261,23 @@ body {
     position: fixed;
     left:70%;
     top:72%;
-    width:20vw;
+    width:19vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     
+}
+
+@media screen and (max-width: 560px) {
+  .ninth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ninth {
+    font-size: 14px;
+    
+  }
 }
 
 .tenth {
@@ -165,9 +286,23 @@ body {
     font-family: "adobe caslon pro", serif;position: fixed;
     left:80%;
     top:83%;
-    width:20vw;
+    width:19vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     */
+}
+
+@media screen and (max-width: 560px) {
+  .tenth {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tenth {
+    font-size: 14px;
+    
+  }
 }
 
 .button-1 {

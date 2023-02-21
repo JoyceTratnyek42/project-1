@@ -28,19 +28,39 @@ body {
     font-size: 20px;
     font-family: "adobe caslon pro", serif;
     position: fixed;
-    top:10%;
+    top:7%;
     left:10%;
     width: 65vw;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32); */  
 }
 
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 600px) {
   .first {
-    top: 1.5%;
+    top: 3%;
     font-size: 18px;
     width: 75vw;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .first {
+    top: 1.5%;
+    font-size: 14px;
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .first {
+    top: 1%;
+    font-size: 12px;
+    width: 75vw;
+  }
+}
+
+
+
 
 .button-1 {
     

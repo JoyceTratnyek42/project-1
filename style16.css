@@ -23,10 +23,24 @@ body {
 
 .first {
     
-    font-size: 80px;
+    font-size: 20px;
     font-family: "adobe caslon pro", serif;
    /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32); 
     */
+}
+
+
+@media screen and (max-width: 600px) {
+  .first {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .first {
+    font-size: 14px;
+  }
 }
 
 

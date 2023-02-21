@@ -48,6 +48,14 @@ body {
 @media screen and (max-width: 415px) {
   .first {
     top: 20%;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .first {
+    top: 10%;
+    font-size: 20px;
   }
 }
 

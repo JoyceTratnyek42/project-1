@@ -29,10 +29,15 @@ body {
     left:3%;
     top:5%;
     width:65vw;
-   /* text-shadow: 6px 15px 17px rgba(0,0,0,0.32); */
-    
 }
 
+@media screen and (max-width: 400px) {
+  .first {
+      font-size: 17px;
+      width:70vw;
+    
+  }
+}
 
 .button-1 {
     

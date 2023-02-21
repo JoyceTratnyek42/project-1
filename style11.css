@@ -33,7 +33,11 @@ body {
     
 }
 
-
+@media screen and (max-width: 400px) {
+  .first {
+    font-size: 15px;
+  }
+}
 
 .second {
     
@@ -51,6 +55,28 @@ body {
 }
 
 
+@media screen and (max-width: 380px) {
+  .second {
+    top:22%;
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 310px) {
+  .second {
+    top:23%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .second {
+    top:27%;
+    font-size: 12px;
+  }
+}
+
 
 .third {
     
@@ -67,6 +93,18 @@ body {
 @media screen and (max-width: 550px) {
   .third {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .third {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .third {
+    font-size: 12px;
   }
 }
 

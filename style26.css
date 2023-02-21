@@ -53,6 +53,14 @@ body {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .first {
+    top: 1%;
+    font-size: 21px;
+  }
+}
+
+
 .button-1 {
     
 background-color: black;

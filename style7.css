@@ -50,6 +50,15 @@ body {
   }
 }
 
+@media screen and (max-width: 300px) {
+  .first {
+    top: 22%;
+    font-size: 14px;
+    width:70vw;
+    
+  }
+}
+
 .box {
     
     font-size: 18px;

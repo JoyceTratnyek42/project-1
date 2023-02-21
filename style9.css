@@ -36,6 +36,7 @@ body {
 }
 
 
+
 .second {
     
     font-size: 20px;
@@ -50,7 +51,12 @@ body {
     
 }
 
-
+@media screen and (max-width: 400px) {
+  .second {
+    font-size: 17px;
+    
+  }
+}
 
 .third {
     

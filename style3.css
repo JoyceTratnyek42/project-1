@@ -37,7 +37,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .first {
-    font-size: 45px;
+    font-size: 30px;
     
   }
 }
@@ -50,7 +50,7 @@ body {
     font-family: "adobe caslon pro", serif;
     /*text-shadow: 6px 15px 17px rgba(0,0,0,0.32);*/
     position: fixed;
-    top:74%;
+    top:72%;
     left:5%;
     width:325px;
     
@@ -59,18 +59,20 @@ body {
 
 @media screen and (max-width: 700px) {
   .second {
-    top: 75%;
+    top: 73%;
     left:5%;
     
   }
 }
 
 
-
-
-
-
-
+@media screen and (max-width: 400px) {
+  .second {
+    font-size: 18px;
+    width:250px;
+    
+  }
+}
 
 
 .third {
@@ -109,10 +111,25 @@ body {
   .third {
     left:40%;
     top:56%;
+    font-size: 18px;
+    width: 210px;
     
     
   }
 }
+
+
+@media screen and (max-width: 300px) {
+  .third {
+    left:25%;
+    top:56%;
+    font-size: 18px;
+    width: 210px;
+    
+    
+  }
+}
+
 
 
 .fourth {
@@ -139,11 +156,21 @@ body {
 @media screen and (max-width: 450px) {
   .fourth {
     left:62%;
-    top:65%;
+    top:67%;
     
     
   }
 }
+
+@media screen and (max-width: 300px) {
+  .fourth {
+    left:56%;
+    top:67%;
+    
+    
+  }
+}
+
 
 .fifth {
     
@@ -168,6 +195,15 @@ body {
 @media screen and (max-width: 450px) {
   .fifth {
     left:70%;
+    top:67%;
+    
+    
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .fifth{
+    left:64%;
     top:67%;
     
     
@@ -199,6 +235,15 @@ body {
 @media screen and (max-width: 450px) {
   .sixth {
     left:82%;
+    top:70%;
+    
+    
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .sixth {
+    left:69%;
     top:70%;
     
     

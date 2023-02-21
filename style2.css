@@ -27,6 +27,7 @@ body {
 @media screen and (max-width: 410px) {
   .first {
     width: 200px;
+    top:4%;
   }
 }
 
@@ -135,6 +136,15 @@ body {
 @media screen and (max-width: 445px) {
   .eight {
     left: 36%;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .eight {
+    left: 36%;
+    width: 190px;
+    font-size: 18px;
   }
 }
 

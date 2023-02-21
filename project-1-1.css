@@ -36,8 +36,7 @@ body {
     top:7%;
     text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     filter:blur(0px);
-    transition: 500ms ease;
-    
+    transition: 500ms ease;   
 }
 
 
@@ -49,10 +48,44 @@ body {
     left: 10%;
     top:7%;
     text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
-    transition: 500ms ease;
+    transition: 500ms ease;   
+}
+
+
+.first:visited {
     
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;   
 }
 
+
+.first:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;   
+}
+
+
+.first:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 10%;
+    top:7%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;   
+}
 
 @media screen and (max-width: 820px) {
   .first {
@@ -74,6 +107,23 @@ body {
 }
 
 
+@media screen and (max-width: 820px) {
+  .first:visited {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .first:target {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .first:focus {
+    font-size: 60px;
+  }
+}
 
 
 
@@ -95,6 +145,26 @@ body {
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .first:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .first:target {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .first:visited {
+    font-size: 40px;
+  }
+}
+
 
 
 @media screen and (max-width: 410px) {
@@ -112,6 +182,26 @@ body {
 
 @media screen and (max-width: 410px) {
   .first:hover {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .first:focus {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .first:target {
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .first:visited {
     font-size: 28px;
   }
 }
@@ -154,6 +244,41 @@ body {
         
 }
 
+.second:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;      
+}
+
+.second:visited {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+        
+}
+
+.second:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 45%;
+    top:20%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+        
+}
+
 @media screen and (max-width: 820px) {
   .second {
     font-size: 60px;
@@ -173,6 +298,25 @@ body {
   }
 }
 
+
+@media screen and (max-width: 820px) {
+  .second:visited {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .second:target {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .second:focus {
+    font-size: 60px;
+  }
+}
 
 
 @media screen and (max-width: 620px) {
@@ -194,6 +338,23 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .second:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .second:visited {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .second:target {
+    font-size: 40px;
+  }
+}
 
 @media screen and (max-width: 410px) {
   .second {
@@ -214,7 +375,23 @@ body {
   }
 }
 
+@media screen and (max-width: 410px) {
+  .second:target {
+    font-size: 28px;
+  }
+}
 
+@media screen and (max-width: 410px) {
+  .second:focus {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .second:visited {
+    font-size: 28px;
+  }
+}
 
 .third {
     
@@ -229,6 +406,43 @@ body {
 }
 
 .third:hover {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.third:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;  
+}
+
+.third:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 30%;
+    top:27%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;  
+}
+
+.third:visited {
     
     font-size: 80px;
     font-family: "adobe caslon pro", serif;
@@ -272,7 +486,23 @@ body {
   }
 }
 
+@media screen and (max-width: 820px) {
+  .third:visited {
+    font-size: 60px;
+  }
+}
 
+@media screen and (max-width: 820px) {
+  .third:target {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .third:focus {
+    font-size: 60px;
+  }
+}
 
 
 @media screen and (max-width: 620px) {
@@ -287,6 +517,24 @@ body {
   }
 }
 
+
+@media screen and (max-width: 620px) {
+  .third:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .third:visited {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .third:target {
+    font-size: 40px;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .third:hover {
@@ -309,6 +557,24 @@ body {
 
 @media screen and (max-width: 410px) {
   .third:hover {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .third:focus {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .third:visited {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .third:target {
     font-size: 28px;
   }
 }
@@ -348,10 +614,44 @@ body {
     top:35%;
     text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     transition: 500ms ease;
-    
-    
+      
 }
 
+.fourth:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;  
+}
+
+
+.fourth:visited {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+      
+}
+
+.fourth:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:35%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    transition: 500ms ease;
+      
+}
 
 @media screen and (max-width: 820px) {
   .fourth {
@@ -372,8 +672,23 @@ body {
   }
 }
 
+@media screen and (max-width: 820px) {
+  .fourth:target {
+    font-size: 60px;
+  }
+}
 
+@media screen and (max-width: 820px) {
+  .fourth:focus {
+    font-size: 60px;
+  }
+}
 
+@media screen and (max-width: 820px) {
+  .fourth:visited {
+    font-size: 60px;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .fourth {
@@ -386,6 +701,25 @@ body {
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .fourth:visited {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fourth:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fourth:target {
+    font-size: 40px;
+  }
+}
+
 
 
 @media screen and (max-width: 620px) {
@@ -405,6 +739,25 @@ body {
     font-size: 28px;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .fourth:target {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fourth:visited {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fourth:focus {
+    font-size: 28px;
+  }
+}
+
 
 
 @media screen and (max-width: 410px) {
@@ -425,6 +778,60 @@ body {
     filter: blur(12px);
     
 }
+
+.fifth:active {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+
+.fifth:visited {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.fifth:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
+.fifth:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 40%;
+    top:50%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;
+    
+}
+
 
 .fifth:hover {
     
@@ -464,6 +871,23 @@ body {
   }
 }
 
+@media screen and (max-width: 820px) {
+  .fifth:visited {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fifth:focus {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fifth:target {
+    font-size: 60px;
+  }
+}
 
 @media screen and (max-width: 820px) {
   .fifth:hover {
@@ -486,6 +910,23 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .fifth:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fifth:visited {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .fifth:target {
+    font-size: 40px;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .fifth:hover {
@@ -505,6 +946,24 @@ body {
   }
 }
 
+
+@media screen and (max-width: 410px) {
+  .fifth:visited {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fifth:target {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .fifth:focus {
+    font-size: 28px;
+  }
+}
 
 @media screen and (max-width: 410px) {
   .fifth:hover {
@@ -536,10 +995,7 @@ body {
     top:75%;
     text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
     filter:blur(0px);
-    transition: 500ms ease;
-    
-    
-    
+    transition: 500ms ease;   
 }
 
 .sixth:active {
@@ -555,6 +1011,44 @@ body {
     
 }
 
+.sixth:visited {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;   
+}
+
+.sixth:target {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;   
+}
+
+.sixth:focus {
+    
+    font-size: 80px;
+    font-family: "adobe caslon pro", serif;
+    position: fixed;
+    left: 25%;
+    top:75%;
+    text-shadow: 6px 15px 17px rgba(0,0,0,0.32);
+    filter:blur(0px);
+    transition: 500ms ease;   
+}
+
+
+
 @media screen and (max-width: 820px) {
   .sixth {
     font-size: 60px;
@@ -563,6 +1057,24 @@ body {
 
 @media screen and (max-width: 820px) {
   .sixth:active {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .sixth:focus {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .sixth:target {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .sixth:visited {
     font-size: 60px;
   }
 }
@@ -576,8 +1088,6 @@ body {
 
 
 
-
-
 @media screen and (max-width: 620px) {
   .sixth {
     font-size: 40px;
@@ -590,6 +1100,23 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .sixth:focus {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sixth:target {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sixth:visited {
+    font-size: 40px;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .sixth:hover {
@@ -618,7 +1145,23 @@ body {
   }
 }
 
+@media screen and (max-width: 410px) {
+  .sixth:visited {
+    font-size: 28px;
+  }
+}
 
+@media screen and (max-width: 410px) {
+  .sixth:target {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .sixth:focus {
+    font-size: 28px;
+  }
+}
 
 
 .button-1 {
